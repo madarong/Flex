@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background: black;
+        }
+        #wrapper {
+            height: 200px;
+            width: 200px;
+            background: white;
+            border-radius: 20px;
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        #item {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: black;
+        }
+        #item1{
+             width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: black;
+            align-self: center;
+        }
+        #item2{
+             width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: black;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <span id="item"></span>
+    <span id="item1"></span>
+    <span id="item2"></span>
+</div>
+</body>
+</html>
